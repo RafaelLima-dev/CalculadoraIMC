@@ -23,8 +23,11 @@ class MainActivity : AppCompatActivity() {
 
 
         btncalcular.setOnClickListener {
-            val peso = edtpeso.text
-            val altura = edialtura.text
+            val peso: Float= edtpeso.text.toString().toFloat()
+            val altura: Float = edialtura.text.toString().toFloat()
+            val alturaQ2 = altura * altura
+            val resultado = peso / alturaQ2
+            println("Rafael açao do botao" + resultado )
 
 
         }

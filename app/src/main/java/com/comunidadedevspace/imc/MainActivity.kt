@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
 
 
-                println("Rafael açao do botao" + resultado)
             }
         }
     }
